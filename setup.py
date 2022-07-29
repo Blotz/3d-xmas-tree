@@ -5,7 +5,7 @@ with open('README.md', encoding='utf-8') as f:
     long_description = f.read()
 
 # Get version from __init__.py
-with open('xmas-tree/__init__.py', encoding='utf-8') as f:
+with open('xmas_tree/__init__.py', encoding='utf-8') as f:
     version = f.read().split('__version__ = ')[1].split('\n')[0]
 
 if __name__=="__main__":
@@ -25,7 +25,7 @@ if __name__=="__main__":
             'Programming Language :: Python :: 3',
             'Programming Language :: Python :: 3.10',
         ],
-        packages=['xmas-tree'],
+        packages=['xmas_tree'],
         install_requires=[
             'numpy',
             'opencv-python',
